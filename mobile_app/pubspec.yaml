@@ -1,0 +1,24 @@
+name: express_formiga
+description: App de entregas Express Formiga
+publish_to: "none"
+
+environment:
+  sdk: ">=2.18.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  firebase_core: ^2.12.0
+  cloud_firestore: ^4.10.0
+  google_maps_flutter: ^2.5.0
+  geolocator: ^10.1.0
+  flutter_polyline_points: ^1.0.0
+  provider: ^6.0.5
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
